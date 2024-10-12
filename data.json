@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "image": "item1.jpg",
+            "name": "Item 1",
+            "price": 0.01
+        },
+        {
+            "image": "item2.jpg",
+            "name": "Item 2",
+            "price": 0.02
+        }
+    ]
+}
