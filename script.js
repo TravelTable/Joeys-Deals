@@ -18,7 +18,7 @@ fetch('data.json')
 
 // Handle Bitcoin payment
 function buyWithBitcoin(amount) {
-    const bitcoinAddress = "your-bitcoin-address-here"; // Replace with your Bitcoin address
+    const bitcoinAddress = "bc1q5320lv7cnnaz3e4nxm8rlfzzddwslnnaesyyvp"; // Replace with your Bitcoin address
     const paymentUrl = `bitcoin:${bitcoinAddress}?amount=${amount}`;
     
     window.location.href = paymentUrl;
