@@ -10,6 +10,7 @@ fetch('data.json')
                 <img src="${item.image}" alt="${item.name}">
                 <h2>${item.name}</h2>
                 <p>Price: ${item.price} BTC</p>
+                <p>${item.description}</p>  <!-- Display the description here -->
                 <button onclick="buyWithBitcoin(${item.price})">Buy with Bitcoin</button>
             `;
             itemsContainer.appendChild(itemElement);
@@ -20,6 +21,5 @@ fetch('data.json')
 function buyWithBitcoin(amount) {
     const bitcoinAddress = "bc1q5320lv7cnnaz3e4nxm8rlfzzddwslnnaesyyvp"; // Replace with your Bitcoin address
     const paymentUrl = `bitcoin:${bitcoinAddress}?amount=${amount}`;
-    
     window.location.href = paymentUrl;
 }
