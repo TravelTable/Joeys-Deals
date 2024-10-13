@@ -3,12 +3,15 @@
         {
             "image": "item1.jpg",
             "name": "Item 1",
-            "price": 0.01
+            "price": 0.01,
+            "description": "This is a great item 1 that offers premium quality and features."
         },
         {
             "image": "item2.jpg",
             "name": "Item 2",
-            "price": 0.02
+            "price": 0.02,
+            "description": "Item 2 comes with advanced features and is available at an affordable price."
         }
     ]
 }
+
